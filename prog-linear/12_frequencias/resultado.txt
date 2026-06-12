@@ -1,0 +1,84 @@
+==============================
+PROBLEMA: Frequencia
+==============================
+Status CPLEX: 1
+Numero minimo de frequencias: 3
+
+Frequencias usadas:
+Freq 1
+Freq 2
+Freq 3
+
+Frequencia escolhida para cada antena:
+Antena 1 -> Freq 1
+Antena 2 -> Freq 2
+Antena 3 -> Freq 3
+Antena 4 -> Freq 1
+Antena 5 -> Freq 2
+Antena 6 -> Freq 3
+
+Conferencia das interferencias:
+Antena 1 e Antena 2: Freq 1 / Freq 2
+Antena 1 e Antena 3: Freq 1 / Freq 3
+Antena 2 e Antena 3: Freq 2 / Freq 3
+Antena 2 e Antena 4: Freq 2 / Freq 1
+Antena 3 e Antena 5: Freq 3 / Freq 2
+Antena 4 e Antena 5: Freq 1 / Freq 2
+Antena 4 e Antena 6: Freq 1 / Freq 3
+Antena 5 e Antena 6: Freq 2 / Freq 3
+
+
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+Legacy callback                                  pi
+Tried aggregator 1 time.
+MIP Presolve eliminated 60 rows and 0 columns.
+MIP Presolve modified 24 coefficients.
+Reduced MIP has 35 rows, 42 columns, and 130 nonzeros.
+Reduced MIP has 42 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,12 ticks)
+Found incumbent of value 6,000000 after 0,00 sec. (0,23 ticks)
+Probing fixed 2 vars, tightened 0 bounds.
+Probing time = 0,00 sec. (0,04 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 2 columns.
+Reduced MIP has 33 rows, 40 columns, and 118 nonzeros.
+Reduced MIP has 40 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,10 ticks)
+Probing time = 0,00 sec. (0,03 ticks)
+Clique table members: 72.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0,00 sec. (0,07 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            6,0000        2,0000            66,67%
+*     0+    0                            3,0000        2,0000            33,33%
+      0     0        cutoff              3,0000        3,0000       20    0,00%
+      0     0        cutoff              3,0000        3,0000       20    0,00%
+Elapsed time = 0,02 sec. (0,59 ticks, tree = 0,01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0,02 sec. (0,59 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,02 sec. (0,59 ticks)
+
+================================================================================
+
+|  Resumo do log:
+|  Primeira solução viável encontrada: 6
+|  Melhor solução inteira encontrada: 3
+|  Best bound final: 3
+|  Gap final: 0%
+|  Tempo total: 0,02 sec
+|  Soluções inteiras encontradas: 2
+|  Modelo reduzido: 33 restrições, 40 variáveis binárias e 118 coeficientes não zero
+
+==============================

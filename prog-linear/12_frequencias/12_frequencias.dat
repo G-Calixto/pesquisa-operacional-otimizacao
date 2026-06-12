@@ -1,0 +1,37 @@
+// dados do problema de frequencia
+// instancia pequena para testar o modelo
+
+nAntenas = 6;
+
+// usamos no maximo uma frequencia por antena
+// o CPLEX vai decidir quantas realmente precisa usar
+nFrequencias = 6;
+
+nomeAntena = [
+  "Antena 1",
+  "Antena 2",
+  "Antena 3",
+  "Antena 4",
+  "Antena 5",
+  "Antena 6"
+];
+
+nomeFreq = [
+  "Freq 1",
+  "Freq 2",
+  "Freq 3",
+  "Freq 4",
+  "Freq 5",
+  "Freq 6"
+];
+
+// matriz de interferencia
+// 1 significa que as duas antenas nao podem usar a mesma frequencia
+interfere = [
+  [0, 1, 1, 0, 0, 0],
+  [1, 0, 1, 1, 0, 0],
+  [1, 1, 0, 0, 1, 0],
+  [0, 1, 0, 0, 1, 1],
+  [0, 0, 1, 1, 0, 1],
+  [0, 0, 0, 1, 1, 0]
+];
