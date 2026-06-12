@@ -1,0 +1,53 @@
+==============================
+PROBLEMA: Clique Maxima
+==============================
+Status CPLEX: 1
+Tamanho da clique maxima: 4
+
+Vertices escolhidos:
+Vertice 1
+Vertice 2
+Vertice 3
+Vertice 4
+
+Conferencia dos pares escolhidos:
+Vertice 1 - Vertice 2 | aresta = 1
+Vertice 1 - Vertice 3 | aresta = 1
+Vertice 1 - Vertice 4 | aresta = 1
+Vertice 2 - Vertice 3 | aresta = 1
+Vertice 2 - Vertice 4 | aresta = 1
+Vertice 3 - Vertice 4 | aresta = 1
+
+Quantidade conferida = 4
+
+
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+Legacy callback                                  pi
+Found incumbent of value 0,000000 after 0,00 sec. (0,00 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 2 rows and 4 columns.
+Aggregator did 3 substitutions.
+All rows and columns eliminated.
+Presolve time = 0,00 sec. (0,01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0,00 sec. (0,01 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,00 sec. (0,01 ticks)
+
+
+=======================================================================
+
+|  Resumo do log:
+|  Primeira solução viável encontrada: 0
+|  Melhor solução inteira encontrada: 4
+|  Gap final: 0%
+|  Tempo total: 0,00 sec
+|  Presolve eliminou todas as linhas e colunas
+|  Branch-and-bound: não precisou explorar nós relevantes
+
+==============================

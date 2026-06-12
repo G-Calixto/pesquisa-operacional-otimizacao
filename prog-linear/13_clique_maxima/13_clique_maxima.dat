@@ -1,0 +1,28 @@
+// dados do problema da clique maxima
+// instancia pequena para testar o modelo
+
+nVertices = 7;
+
+nomeVertice = [
+  "Vertice 1",
+  "Vertice 2",
+  "Vertice 3",
+  "Vertice 4",
+  "Vertice 5",
+  "Vertice 6",
+  "Vertice 7"
+];
+
+// matriz de adjacencia
+// 1 = existe aresta
+// 0 = nao existe aresta
+//
+aresta = [
+  [0, 1, 1, 1, 1, 1, 0],
+  [1, 0, 1, 1, 1, 1, 1],
+  [1, 1, 0, 1, 1, 0, 1],
+  [1, 1, 1, 0, 0, 1, 1],
+  [1, 1, 1, 0, 0, 0, 0],
+  [1, 1, 0, 1, 0, 0, 1],
+  [0, 1, 1, 1, 0, 1, 0]
+];
