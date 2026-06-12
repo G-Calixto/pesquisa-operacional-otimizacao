@@ -1,0 +1,39 @@
+==============================
+PROBLEMA: Plantio
+==============================
+Status CPLEX: 1
+Lucro maximo: 4361904.761904762
+
+Proporcao de area usada em cada fazenda: 0.678571429
+
+Area plantada por fazenda e cultura:
+
+Fazenda 1:
+  milho = 271.428571429
+
+Fazenda 2:
+  milho = 290.476190476
+  arroz = 150.595238095
+
+Fazenda 3:
+  arroz = 237.5
+
+Uso de area por fazenda:
+Fazenda 1: usada = 271.428571429 / disponivel = 400
+Fazenda 2: usada = 441.071428571 / disponivel = 650
+Fazenda 3: usada = 237.5 / disponivel = 350
+
+Uso de agua por fazenda:
+Fazenda 1: usada = 1492.857142857 / disponivel = 1800
+Fazenda 2: usada = 2200 / disponivel = 2200
+Fazenda 3: usada = 950 / disponivel = 950
+
+Area total por cultura:
+milho: plantada = 561.904761905 / maximo = 660
+arroz: plantada = 388.095238095 / maximo = 880
+feijao: plantada = 0 / maximo = 400
+
+Best bound: nao aplicavel - modelo PL continuo
+Gap: nao aplicavel - modelo PL continuo
+Nos explorados: nao aplicavel - modelo PL continuo
+==============================

@@ -1,0 +1,32 @@
+// dados do problema do plantio
+
+nFazendas = 3;
+nCulturas = 3;
+
+nomeFazenda = [
+  "Fazenda 1",
+  "Fazenda 2",
+  "Fazenda 3"
+];
+
+nomeCultura = [
+  "milho",
+  "arroz",
+  "feijao"
+];
+
+// area disponivel em cada fazenda
+areaDisponivel = [400, 650, 350];
+
+// agua disponivel em cada fazenda
+aguaDisponivel = [1800, 2200, 950];
+
+// area maxima que pode ser plantada de cada cultura
+// milho, arroz, feijao
+areaMaxima = [660, 880, 400];
+
+// consumo de agua por area de cada cultura
+aguaPorArea = [5.5, 4, 3.5];
+
+// lucro por area de cada cultura
+lucroPorArea = [5000, 4000, 1800];
