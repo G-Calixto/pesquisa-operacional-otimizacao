@@ -1,0 +1,18 @@
+==============================
+PROBLEMA: Dieta
+==============================
+Status CPLEX: 1
+Custo minimo: 179
+
+Ingredientes usados:
+Ingrediente 5 = 5
+Ingrediente 6 = 2
+
+Vitaminas obtidas:
+A: obtido = 9 / minimo = 9
+C: obtido = 19 / minimo = 19
+
+Best bound: nao aplicavel - modelo PL continuo
+Gap: nao aplicavel - modelo PL continuo
+Nos explorados: nao aplicavel - modelo PL continuo
+==============================

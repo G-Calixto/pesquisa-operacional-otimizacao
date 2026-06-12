@@ -1,0 +1,32 @@
+// dados do problema da dieta
+
+nIngredientes = 6;
+nVitaminas = 2;
+
+nomeIngrediente = [
+  "Ingrediente 1",
+  "Ingrediente 2",
+  "Ingrediente 3",
+  "Ingrediente 4",
+  "Ingrediente 5",
+  "Ingrediente 6"
+];
+
+nomeVitamina = ["A", "C"];
+
+// custo de cada ingrediente
+preco = [35, 30, 60, 50, 27, 22];
+
+// mínimo necessário de cada vitamina
+// A = 9, C = 19
+minimo = [9, 19];
+
+// linhas = vitaminas
+// colunas = ingredientes
+//
+// vitamina A: 1 0 2 2 1 2
+// vitamina C: 0 1 3 1 3 2
+qtdVitamina = [
+  [1, 0, 2, 2, 1, 2],
+  [0, 1, 3, 1, 3, 2]
+];
