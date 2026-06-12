@@ -1,0 +1,20 @@
+// dados do problema do escalonamento
+
+nDias = 7;
+
+nomeDia = [
+  "Dia 1",
+  "Dia 2",
+  "Dia 3",
+  "Dia 4",
+  "Dia 5",
+  "Dia 6",
+  "Dia 7"
+];
+
+// demanda de enfermeiras em cada dia
+// como o slide nao traz valores, usamos essa instancia de teste
+demanda = [10, 12, 15, 8, 9, 11, 13];
+
+// cada enfermeira trabalha 5 dias seguidos
+diasTrabalhados = 5;
