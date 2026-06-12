@@ -16,5 +16,5 @@ nomeDia = [
 // como o slide nao traz valores, usamos essa instancia de teste
 demanda = [10, 12, 15, 8, 9, 11, 13];
 
-// cada enfermeira trabalha 5 dias seguidos
-diasTrabalhados = 5;
+// cada enfermeira trabalha 4 dias seguidos
+diasTrabalhados = 4;
