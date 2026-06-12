@@ -1,0 +1,26 @@
+// dados do problema de cobertura
+// exemplo com 6 bairros
+
+nBairros = 6;
+
+nomeBairro = [
+  "Bairro 1",
+  "Bairro 2",
+  "Bairro 3",
+  "Bairro 4",
+  "Bairro 5",
+  "Bairro 6"
+];
+
+// linhas = bairro que precisa ser coberto
+// colunas = bairro onde a escola pode ser construída
+//
+// cobre[i][j] = 1 significa que escola em j cobre o bairro i
+cobre = [
+  [1, 1, 1, 0, 0, 0],
+  [1, 1, 1, 1, 0, 0],
+  [1, 1, 1, 0, 1, 0],
+  [0, 1, 0, 1, 1, 1],
+  [0, 0, 1, 1, 1, 1],
+  [0, 0, 0, 1, 1, 1]
+];
