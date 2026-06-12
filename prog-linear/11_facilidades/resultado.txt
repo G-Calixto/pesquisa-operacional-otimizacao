@@ -1,0 +1,73 @@
+==============================
+PROBLEMA: Facilidades
+==============================
+Status CPLEX: 1
+Custo minimo: 96
+
+Depositos abertos:
+Deposito 1 | custo abertura = 30
+Deposito 3 | custo abertura = 30
+
+Atendimento dos clientes:
+Cliente 1 atendido por Deposito 1 | custo = 4
+Cliente 2 atendido por Deposito 1 | custo = 6
+Cliente 3 atendido por Deposito 1 | custo = 9
+Cliente 4 atendido por Deposito 3 | custo = 8
+Cliente 5 atendido por Deposito 3 | custo = 5
+Cliente 6 atendido por Deposito 3 | custo = 4
+
+Conferencia:
+Custo de abertura = 60
+Custo de atendimento = 36
+Custo total = 96
+
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+Legacy callback                                  pi
+Tried aggregator 1 time.
+Reduced MIP has 30 rows, 28 columns, and 72 nonzeros.
+Reduced MIP has 28 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,04 ticks)
+Found incumbent of value 207,000000 after 0,00 sec. (0,06 ticks)
+Probing time = 0,00 sec. (0,01 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 30 rows, 28 columns, and 72 nonzeros.
+Reduced MIP has 28 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,05 ticks)
+Probing time = 0,00 sec. (0,01 ticks)
+Clique table members: 30.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0,00 sec. (0,04 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          207,0000        0,0000           100,00%
+*     0+    0                          117,0000        0,0000           100,00%
+*     0+    0                          109,0000        0,0000           100,00%
+*     0     0      integral     0       96,0000       96,0000       14    0,00%
+Elapsed time = 0,00 sec. (0,23 ticks, tree = 0,00 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =    0,00 sec. (0,23 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,00 sec. (0,23 ticks)
+
+====================================================================================
+
+|  Resumo do log:
+|  Primeira solução viável encontrada: 207
+|  Melhor solução inteira encontrada: 96
+|  Best bound final: 96
+|  Gap final: 0%
+|  Tempo total: 0,00 sec
+|  Soluções inteiras encontradas: 4
+|  Modelo reduzido: 30 restrições, 28 variáveis binárias e 72 coeficientes não zero
+
+==============================
