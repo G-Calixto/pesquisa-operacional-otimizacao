@@ -1,0 +1,32 @@
+==============================
+PROBLEMA: Tintas
+==============================
+Status CPLEX: 1
+Custo minimo: 1458.333333333
+
+Quantidade usada de cada produto:
+
+SR:
+  SolA = 333.333333333 litros
+  SolB = 666.666666667 litros
+
+SN:
+  SolA = 83.333333333 litros
+  SolB = 166.666666667 litros
+
+Conferencia da composicao:
+
+SR:
+  volume = 1000 / demanda = 1000
+  SEC = 500 / minimo = 250
+  COR = 500 / minimo = 500
+
+SN:
+  volume = 250 / demanda = 250
+  SEC = 125 / minimo = 50
+  COR = 125 / minimo = 125
+
+Best bound: nao aplicavel - modelo PL continuo
+Gap: nao aplicavel - modelo PL continuo
+Nos explorados: nao aplicavel - modelo PL continuo
+==============================

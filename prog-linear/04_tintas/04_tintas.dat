@@ -1,0 +1,40 @@
+// dados do problema das tintas
+
+nProdutos = 4;
+nTintas = 2;
+
+nomeProduto = [
+  "SolA",
+  "SolB",
+  "SEC",
+  "COR"
+];
+
+nomeTinta = [
+  "SR",
+  "SN"
+];
+
+// custos por litro
+// SolA = 1.5, SolB = 1.0, SEC puro = 4.0, COR puro = 6.0
+custo = [1.5, 1.0, 4.0, 6.0];
+
+// porcentagem de SEC em cada produto
+// SolA = 30%, SolB = 60%, SEC = 100%, COR = 0%
+percSEC = [0.30, 0.60, 1.00, 0.00];
+
+// porcentagem de COR em cada produto
+// SolA = 70%, SolB = 40%, SEC = 0%, COR = 100%
+percCOR = [0.70, 0.40, 0.00, 1.00];
+
+// demanda das tintas
+// SR = 1000 litros, SN = 250 litros
+demanda = [1000, 250];
+
+// exigencias minimas de SEC
+// SR = 25%, SN = 20%
+minSEC = [0.25, 0.20];
+
+// exigencias minimas de COR
+// SR = 50%, SN = 50%
+minCOR = [0.50, 0.50];
