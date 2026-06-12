@@ -1,0 +1,27 @@
+==============================
+PROBLEMA: Transporte
+==============================
+Status CPLEX: 1
+Custo minimo: 1920
+
+Rotas usadas:
+Fabrica 1 -> Deposito 1 = 70
+Fabrica 1 -> Deposito 3 = 50
+Fabrica 2 -> Deposito 2 = 70
+Fabrica 2 -> Deposito 3 = 10
+Fabrica 3 -> Deposito 1 = 80
+
+Conferencia das fabricas:
+Fabrica 1: enviado = 120 / oferta = 120
+Fabrica 2: enviado = 80 / oferta = 80
+Fabrica 3: enviado = 80 / oferta = 80
+
+Conferencia dos depositos:
+Deposito 1: recebido = 150 / demanda = 150
+Deposito 2: recebido = 70 / demanda = 70
+Deposito 3: recebido = 60 / demanda = 60
+
+Best bound: nao aplicavel - modelo PL continuo
+Gap: nao aplicavel - modelo PL continuo
+Nos explorados: nao aplicavel - modelo PL continuo
+==============================

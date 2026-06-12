@@ -1,0 +1,31 @@
+// dados do problema do transporte
+
+nFabricas = 3;
+nDepositos = 3;
+
+nomeFabrica = [
+  "Fabrica 1",
+  "Fabrica 2",
+  "Fabrica 3"
+];
+
+nomeDeposito = [
+  "Deposito 1",
+  "Deposito 2",
+  "Deposito 3"
+];
+
+// oferta de cada fabrica
+oferta = [120, 80, 80];
+
+// demanda de cada deposito
+demanda = [150, 70, 60];
+
+// matriz de custos
+// linhas = fabricas
+// colunas = depositos
+custo = [
+  [8, 5, 6],
+  [15, 10, 12],
+  [3, 9, 10]
+];
