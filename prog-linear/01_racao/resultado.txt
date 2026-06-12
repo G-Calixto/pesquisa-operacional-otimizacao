@@ -1,0 +1,23 @@
+==============================
+PROBLEMA: Racao
+==============================
+Status CPLEX: Optimal
+Status retornado pelo CPLEX: 1
+Valor objetivo / lucro maximo: 74444.444444444
+
+Lucro unitario:
+AMGS = 11
+RE = 12
+
+Solucao:
+Produzir AMGS = 5555.555555556
+Produzir RE = 1111.111111111
+
+Uso dos recursos:
+carne: usado = 10000 / disponivel = 10000
+cereais: usado = 30000 / disponivel = 30000
+
+Best bound: nao aplicavel - modelo PL continuo
+Gap: nao aplicavel - modelo PL continuo
+Nos explorados: nao aplicavel - modelo PL continuo
+==============================

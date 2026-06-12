@@ -1,0 +1,38 @@
+// Problema da ração
+
+
+nProdutos = 2;
+nRecursos = 2;
+
+// Produtos:
+// 1 = AMGS
+// 2 = RE
+nomeProduto = ["AMGS", "RE"];
+
+// Recursos usados no processo:
+// 1 = carne
+// 2 = cereais
+nomeRecurso = ["carne", "cereais"];
+
+// Preço de venda de cada unidade de ração
+precoVenda = [20, 30];
+
+// Custo por kg de cada recurso
+// carne = 4
+// cereais = 1
+custoRecurso = [4, 1];
+
+// Quantidade disponível de cada recurso
+// carne = 10000 kg e cereais = 30000 kg
+disponibilidade = [10000, 30000];
+
+// Linhas representam os recursos:
+// 1 = carne e 2 = cereais
+// Colunas representam os produtos:
+// 1 = AMGS e 2 = RE
+// AMGS consome 1 kg de carne e 5 kg de cereais
+// RE consome 4 kg de carne e 2 kg de cereais
+consumo = [
+  [1, 4],
+  [5, 2]
+];
