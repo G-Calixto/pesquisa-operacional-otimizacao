@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="Configura&amp;#231;&amp;#227;o1" category="opl">
+            			
+            <ref name="10_padroes.mod" type="model">
+			</ref>
+            			
+            <ref name="10_padroes.ops" type="setting">
+			</ref>
+            			
+            <ref name="10_padroes.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="10_padroesRun" category="opl">
+            			
+            <ref name="10_padroes.mod" type="model">
+			</ref>
+            			
+            <ref name="10_padroes.ops" type="setting">
+			</ref>
+            			
+            <ref name="10_padroes.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

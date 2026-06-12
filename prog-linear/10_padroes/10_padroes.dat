@@ -1,0 +1,35 @@
+// dados do problema dos padroes
+
+nPadroes = 4;
+nTiposFolha = 2;
+
+nomePadrao = [
+  "Padrao 1",
+  "Padrao 2",
+  "Padrao 3",
+  "Padrao 4"
+];
+
+// tipo de folha usado em cada padrao
+tipoFolha = [1, 2, 1, 1];
+
+// quantidade de corpos gerados por impressao
+numCorpo = [1, 2, 0, 4];
+
+// quantidade de tampas geradas por impressao
+numTampa = [7, 3, 9, 4];
+
+// tempo de impressao de cada padrao
+tempo = [2, 3, 2, 1];
+
+// estoque de folhas
+// tipo 1 = 200, tipo 2 = 90
+folhasDisponiveis = [200, 90];
+
+// limite de tempo usado nessa instancia
+tempoMax = 100;
+
+// valores do enunciado
+precoLata = 50;
+custoCorpoSobra = 50;
+custoTampa = 3;
