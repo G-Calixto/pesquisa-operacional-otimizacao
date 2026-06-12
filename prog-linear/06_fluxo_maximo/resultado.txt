@@ -1,0 +1,24 @@
+==============================
+PROBLEMA: Fluxo Maximo
+==============================
+Status CPLEX: 1
+Fluxo maximo: 9
+
+Arcos usados:
+s -> v1 = 5 / cap = 5
+s -> v2 = 4 / cap = 4
+v1 -> v3 = 5 / cap = 6
+v2 -> v4 = 4 / cap = 6
+v3 -> t = 5 / cap = 5
+v4 -> t = 4 / cap = 7
+
+Conferencia dos nos intermediarios:
+v1: entra = 5 / sai = 5
+v2: entra = 4 / sai = 4
+v3: entra = 5 / sai = 5
+v4: entra = 4 / sai = 4
+
+Best bound: nao aplicavel - modelo PL continuo
+Gap: nao aplicavel - modelo PL continuo
+Nos explorados: nao aplicavel - modelo PL continuo
+==============================
